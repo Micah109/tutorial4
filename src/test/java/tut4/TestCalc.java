@@ -13,4 +13,10 @@ public class TestCalc
         int result = Calc.add(1,2);
         assertEquals(3, result);
     }
+
+    @Test
+    public void subtractTest() {
+        int result = Calc.subtract(7,4);
+        assertEquals(3, result);
+    }
 }
